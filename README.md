@@ -1,3 +1,5 @@
+Nedenfor er en dokumentasjon til prosjektet, utarbeidet etter spesifikke krav fra faglærer. Dokumentasjonen er ufullstendig da det ikke er den nyeste versjonen.
+
 ## Innhold og funksjonalitet i brukergrensesnittet samt utseende:
 
 Nettsiden vår, MongoFlix er en søkbar katalog med 4912 ulike filmer hvor brukeren kan søke etter filmtitler, filtrere kategorier, sortere etter dato, gi en stemme (opp eller ned) på en film, mulighet til å se en liste over alle filmer, sortert etter høyest antall stemmer, og få en avansert visning i form av en ordsky hvor brukeren kan klikke på en kategori i ordskyen og få se alle filmer innenfor den kategorien.
@@ -13,8 +15,8 @@ Nettsiden vår, MongoFlix er en søkbar katalog med 4912 ulike filmer hvor bruke
 
 For oss er det viktig å levere et bra brukergrensesnitt som gir brukeren en bra opplevelse. Vi har benyttet oss av tredjepartskomponenter og css for å gjøre siden så brukervennlig som mulig, og at plasseringen av elementene blir riktig. Siden er responsiv og passer til de fleste skjermstørrelser.
 
-## Backend: THOMAS
-Filmer i databasen: husk å credite buddyen til Thomas
+## Backend:
+
 
 ## Bruk av teknologier:
 
@@ -60,8 +62,8 @@ wordCloudReducer: For å lagre hvilken kategori i ordskyen brukeren har trykket 
 Alle disse reducerne har en tilsvarende action med ulike funksjoner ved brukerinteraktivitet. Eksempelvis når man trykker på taben “Show popular” i menyen vil funksjonen handleTabChange() i tabAction bli dispatchet til den respektive reduceren. Metoden handleTabChange returnerer kun en type slik at tabRedcuer vet hvordan den skal oppdatere staten til tab. Se figur 1 for en visuell  fremstilling av flyten fra brukerinteraktivitet til en state i Redux er oppdatert. 
 
 
-### Database: MongoDB: THOMMY
-### Rest API: Node express: THOMMY
+### Database: MongoDB:
+### Rest API: Node express:
 
 ### Tredjepartskomponenter
 Vi har brukt følgende tredjepartskomponenter i vår applikasjon:
