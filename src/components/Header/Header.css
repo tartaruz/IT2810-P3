@@ -1,0 +1,39 @@
+#header{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-color: #02141D;
+    text-align: center;
+    padding: 1%;
+    margin-top: 0%;
+    color: white;
+}
+
+#showFavourite, #advancedView, #SearchPage{
+    height: 3rem;
+    width: 20%;
+    background-color: #34666B;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 1.5vw; 
+    font-weight: lighter;
+}
+
+#showFavourite:hover, #advancedView:hover, #SearchPage:hover{
+    background-color: #4B443C;
+}
+
+#showFavourite:focus, #advancedView:focus, #SearchPage:focus{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+#mongoflixLogo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}

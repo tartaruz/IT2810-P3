@@ -1,0 +1,32 @@
+.searchResults{
+    padding: 10%;
+    margin-top: 13%; 
+}
+
+#back-btn, #load-more-btn{
+    width: 10%;
+    border-radius: 5px;
+    margin-top: 5%;
+    height: 2.5rem;
+    background-color: #02141D;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: none;
+    color: white;
+    outline: none;
+    margin-left: 2%;
+    font-size: 1vw
+}
+
+#back-btn:hover, #load-more-btn:hover{
+    background-color: #34666B;
+}
+
+#no-result-msg{
+    border-radius: 5px;
+    background-color: darkred;
+    color: white;
+    width: 100%;
+    padding: 2%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-size: xx-large;
+}

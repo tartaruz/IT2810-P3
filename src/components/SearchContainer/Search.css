@@ -1,0 +1,142 @@
+.searchBox{
+    color: white;
+    padding-top: 9%;
+}
+
+#searchInput{
+    padding: 1%; 
+    width: 63%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    padding-left: 2%;
+}
+
+#searchBtn{
+    display: inline-flex;
+    text-decoration : none;
+    border-radius: 5px;
+    font-size: large;
+    background-color: #02141D; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: none;
+    color: white;
+    outline: none;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+#searchBtn:hover{
+    background-color: #34666B;
+}
+
+#searchBtn:active{
+    background-color: #4B443C;
+}
+
+::placeholder {
+    font-size: large;
+  }
+
+#searchOptions{
+    border-radius: 5px;
+    background-color:white;
+    margin: auto;
+    color: black;
+    width: 75%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-bottom: -15% !important;
+}
+
+.checkbox-container {
+    padding-left: 20%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    float: left;
+}
+
+#expanson-btn{
+    border-radius: 5px;
+    font-size: large;
+    height: 3rem;
+    background-color: #02141D;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: none;
+    color: white;
+    outline: none;
+    margin-top: 1%;
+    width: 75%;
+}
+
+#expanson-btn:hover{
+    background-color: #34666B;
+}
+
+#expanson-btn:active{
+    background-color: #4B443C;
+}
+
+#search-container{
+    background: rgba(1,1,1,0.5);
+}
+
+.MuiFormGroup-root{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: unset !important;
+}
+
+#upVoteBtn, #downVoteBtn{
+    border-radius: 10px;
+    background-color: #34666B;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: none;
+    color: white;
+    outline: none;
+    padding: 1%;
+    width: 10%;
+    height: 20%;
+    font-size: small;
+}
+#upVoteBtn{
+    margin:2%;
+}
+
+#upVoteBtn:active, #downVoteBtn:active{
+    background-color: #4B443C;
+}
+
+#topMovies{
+    background-color: #02141D;
+    color: white; 
+    width: 100%; 
+    padding: 2%;
+    margin-top: 1%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-size: xx-large;
+    margin-bottom: -22%;
+}
+
+#genreTitle{
+    background-color: #02141D;
+    color: white;
+    width: 100%;
+    padding: 2%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-size: xx-large;
+    margin-bottom: -20%;
+
+}
+
+text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    cursor: pointer;
+}
+

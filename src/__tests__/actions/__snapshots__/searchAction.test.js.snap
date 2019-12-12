@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`actions should create an action to fetch title 1`] = `
+Object {
+  "title": "alien",
+  "type": "UPDATE_TEXT",
+}
+`;
