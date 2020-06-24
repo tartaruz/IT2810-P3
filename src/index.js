@@ -20,12 +20,12 @@ import * as serviceWorker from './serviceWorker';
 //     return {
 //         type: 'ADVANCEDSEARCH'
 //     }
-// }
+// test} 
 
 // const sortChanged = () => {
 //     return {
 //         type: 'SORTCHANGED'
-//     }
+//     }test
 // }
 
 // const filterChanged = () => {
