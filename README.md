@@ -1,5 +1,17 @@
 Nedenfor er en dokumentasjon til prosjektet, utarbeidet etter spesifikke krav fra faglærer. Dokumentasjonen er ufullstendig da det ikke er den nyeste versjonen.
 
+## Kjøre applikasjonen
+```
+git clone git@github.com:charlottesoderstrom/IT2810-P3.git
+```
+```
+cd IT2810-P3
+```
+```
+npm start
+```
+NB: Databasen er ikke lengre tilgjengelig for appliasjonen da den har ligget på en virtuell maskin som har vært hostet av NTNU.
+
 ## Innhold og funksjonalitet i brukergrensesnittet samt utseende:
 
 Nettsiden vår, MongoFlix er en søkbar katalog med 4912 ulike filmer hvor brukeren kan søke etter filmtitler, filtrere kategorier, sortere etter dato, gi en stemme (opp eller ned) på en film, mulighet til å se en liste over alle filmer, sortert etter høyest antall stemmer, og få en avansert visning i form av en ordsky hvor brukeren kan klikke på en kategori i ordskyen og få se alle filmer innenfor den kategorien.
