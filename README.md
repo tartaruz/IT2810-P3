@@ -1,4 +1,4 @@
-Nedenfor er en dokumentasjon til prosjektet, utarbeidet etter spesifikke krav fra faglærer. Dokumentasjonen er ufullstendig da det ikke er den nyeste versjonen.
+Nedenfor er dokumentasjon av prosjektet, utarbeidet etter spesifikke krav fra faglærer. Dokumentasjonen er ufullstendig da det ikke er den nyeste versjonen.
 
 ## Kjøre applikasjonen
 ```
