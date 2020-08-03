@@ -11,7 +11,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "material-ui": "^0.20.2",
-    "mongoose": "^5.7.3",
+    "mongoose": "^5.7.5",
     "re-resizable": "5.0.0",
     "react": "^16.10.2",
     "react-d3-cloud": "^0.7.0",
