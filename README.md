@@ -1,6 +1,4 @@
-Nedenfor er dokumentasjon av prosjektet, utarbeidet etter spesifikke krav fra faglærer. Dokumentasjonen er ufullstendig da det ikke er den nyeste versjonen.
-
-## Kjøre applikasjonen
+## Run the application
 ```
 git clone git@github.com:charlottesoderstrom/IT2810-P3.git
 ```
@@ -10,7 +8,9 @@ cd IT2810-P3
 ```
 npm start
 ```
-NB: Databasen er ikke lengre tilgjengelig for appliasjonen da den har ligget på en virtuell maskin som har vært hostet av NTNU.
+NB: The database is no longer available as it has been hosted by NTNU for a schoold project.
+
+Nedenfor er dokumentasjon av prosjektet, utarbeidet etter spesifikke krav fra faglærer. Dokumentasjonen er ufullstendig da det ikke er den nyeste versjonen.
 
 ## Innhold og funksjonalitet i brukergrensesnittet samt utseende:
 
