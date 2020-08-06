@@ -8,7 +8,7 @@ cd IT2810-P3
 ```
 npm start
 ```
-NB: The database is no longer available as it has been hosted by NTNU for a schoold project.
+NB: The database is no longer available as it has been on a server hosted by NTNU for a schoold project.
 
 Nedenfor er dokumentasjon av prosjektet, utarbeidet etter spesifikke krav fra faglærer. Dokumentasjonen er ufullstendig da det ikke er den nyeste versjonen.
 
