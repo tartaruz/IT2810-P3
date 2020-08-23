@@ -4,7 +4,8 @@ let bodyParser = require('body-parser')
 let cors = require('cors')
 let app = express()
 let port = 3000
-let url = 'mongodb://tartarus:ramirez160796@localhost/DB'
+let url = 'mongodb://tartarus:mongoflixDBatlas112233@localhost/DB'
+let URL = "mongodb+srv://mongoFlix:mongoflixDBatlas112233@mongoflix.0pbiv.mongodb.net/DB"
 app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -17,10 +18,10 @@ app.use("/", movieRoute);
 //Connection to the DB
 let db = mongoose.connection
 mongoose.connect(
-    url,
+    URL,
     { useUnifiedTopology: true , useNewUrlParser: true }, 
     () => {
-        console.log("Connected to the DB: "+url) 
+        console.log("Connected to the DB: "+URL) 
     }
 );
 
